@@ -24,12 +24,12 @@ const doctors = [
 
 ];
 
-const ITEMS_PER_PAGE = 8; // adjust as needed
+const ITEMS_PER_PAGE = 8; 
 const TOTAL_PAGES = 15;
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   const getPages = () => {
-    // Always show: 1, 2, 3, 4, ..., last
+
     const pages = [];
 
     if (totalPages <= 6) {
@@ -147,7 +147,8 @@ const Cards = () => {
             </div>
             <div className="card-actions">
               <div className="action-row">
-                <button className="btn-view">View Now <span><Arrow /></span></button>
+                <button className="btn-view">  View Now <span><Arrow /></span></button>
+               
                 <button className="btn-book">Book Now</button>
               </div>
               <button className="btn-callback">Call Back</button>
