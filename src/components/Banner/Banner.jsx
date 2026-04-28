@@ -3,7 +3,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="doctors-header">
+    <section className="doctors-header">
       <div className="row justify-content-center">
         <div className="col-12 col-md-10 col-lg-8 text-center">
           <h1 className="main-title">
@@ -14,7 +14,7 @@ const Banner = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
